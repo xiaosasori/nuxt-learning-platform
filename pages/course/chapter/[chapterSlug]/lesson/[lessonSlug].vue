@@ -18,9 +18,7 @@ const title = computed(() => {
 useHead({
   title,
 })
-const progress = useState('progress', () => {
-  return []
-})
+const progress = useLocalStorage('progress', [])
 const isLessonComplete = computed(() => {
   if (!progress.value[chapter.value.number - 1]) {
     return false
