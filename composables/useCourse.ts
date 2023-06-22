@@ -8,6 +8,7 @@ interface Lesson {
   videoId: number
   text: string
   sourceUrl?: string
+  path: string
 }
 
 interface Chapter {
