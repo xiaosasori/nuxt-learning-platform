@@ -11,12 +11,13 @@ async function resetError(error) {
 
 <template>
   <div>
-    <div class="prose mb-12">
-      <h1>
+    <div class="mb-4 flex w-full items-center justify-between">
+      <h1 class="text-3xl">
         <span class="font-medium">
           <span class="font-bold">{{ title }}</span>
         </span>
       </h1>
+      <UserCard />
     </div>
 
     <div class="flex flex-grow flex-row justify-center">
