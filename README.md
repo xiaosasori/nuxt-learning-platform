@@ -4,6 +4,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Notes
 - Generated types in [Prisma](https://www.prisma.io/docs/concepts/components/prisma-client/advanced-type-safety/operating-against-partial-structures-of-model-types)
+- Run migration: `pnpm prisma migrate dev`
 
 ## Setup
 
