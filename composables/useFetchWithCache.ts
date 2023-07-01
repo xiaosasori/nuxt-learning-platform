@@ -9,6 +9,7 @@ export default async <T>(url: string) => {
   })
 
   if (!cached.value) {
+    console.log(`Getting value for ${url}`)
     const { data, error } = await useFetch<T>(url)
 
     if (error.value) {
