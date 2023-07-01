@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const course = useCourse()
+const course = await useCourse()
 const { query } = useRoute()
 const supabase = useSupabaseClient()
 const user = useSupabaseUser()
