@@ -11,5 +11,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxtjs/supabase',
     '@pinia/nuxt',
+    '@nuxt/image',
   ],
 })
